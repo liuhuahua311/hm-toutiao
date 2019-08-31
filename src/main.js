@@ -3,6 +3,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import App from './App.vue'
 import router from '@/router'
+import '@/style/index.css'
 
 // 简单配置axios,在任何实例中都能使用到$http
 import axios from '@/api'

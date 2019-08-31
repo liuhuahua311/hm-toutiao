@@ -161,6 +161,7 @@ export default {
       height: 30px;
       vertical-align: middle;
       margin-right: 5px;
+      display: inline-block;
     }
     .name {
       color: #333;

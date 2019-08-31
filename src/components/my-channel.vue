@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import { constants } from 'crypto'
 // 默认功能：
 // 1，选择器的结构
 // 2，有下拉表中的数据
