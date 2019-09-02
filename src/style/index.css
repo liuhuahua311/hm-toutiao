@@ -24,3 +24,16 @@
   height: 178px;
   display: block;
 }
+.article-container .quill-editor {
+  height: 300px;
+  padding-bottom: 40px;
+}
+.article-container .ql-toolbar.ql-snow {
+  padding: 0 8px;
+}
+.img-container .dialog-footer {
+  text-align: center;
+}
+.img-container .el-dialog__body {
+  padding-bottom: 10px;
+}
