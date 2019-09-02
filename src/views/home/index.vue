@@ -87,11 +87,19 @@
 
 <script>
 import store from '@/store'
+import eventBus from '@/eventbus'
 export default {
   created () {
     const user = store.getUser()
     this.name = user.name
     this.photo = user.photo
+    // 绑定evnetbus事件,接收数据
+    eventBus.$on('updataName', (name) => {
+      this.name = name
+    })
+    eventBus.$on('updataPhoto', (photo) => {
+      this.photo = photo
+    })
   },
   data () {
     return {
