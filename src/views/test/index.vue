@@ -6,15 +6,20 @@
             <div slot="foot">底部一</div>
         </com-a>
         <hr>
-        <com-a></com-a>
         <my-bread>测试组件</my-bread>
+
+        <hr>
+        <hr>
+        <hr>
+        <com-b></com-b>
     </div>
 </template>
 
 <script>
 import ComA from './com-a'
+import ComB from './com-b'
 export default {
-  components: { ComA }
+  components: { ComA, ComB }
 }
 </script>
 
